@@ -1,0 +1,16 @@
+
+#ifndef BIT
+#define BIT(n) (1<<(n))
+#endif
+
+#define VBE_INTERRUPT_VECTOR 0x10
+
+#define VBE_BIOS_AH_REG 0x4F
+
+#define BIOS_RETURN_VBE_CTRL_INFO 0x00
+#define BIOS_RETURN_VBE_MODE_INFO 0x01
+#define BIOS_SET_VBE_MODE 0x02
+
+#define VBE_INDEXED_MODE 0x105
+
+#define VBE_INFO_BLOCK_SIZE 512
